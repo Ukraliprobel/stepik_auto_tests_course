@@ -1,6 +1,8 @@
-import os
+s = 'My Name is Julia'
 
-print(os.path.abspath(os.path.dirname(__file__)))
+index = s.find('Name')
+if index != -1:
+    print(f'Substring found at index {index}')
 
 
 
